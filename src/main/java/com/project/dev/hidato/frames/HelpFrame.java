@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {HelpFrame} se encarga de realizar tareas específicas.
+ * @fileoverview    {HelpFrame}
  *
  * @version         2.0
  *

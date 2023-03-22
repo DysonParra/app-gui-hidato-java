@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NewFrame} se encarga de realizar tareas específicas.
+ * @fileoverview    {NewFrame}
  *
  * @version         2.0
  *

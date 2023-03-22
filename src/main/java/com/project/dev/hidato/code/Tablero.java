@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Tablero} se encarga de realizar tareas específicas.
+ * @fileoverview    {Tablero}
  *
  * @version         2.0
  *

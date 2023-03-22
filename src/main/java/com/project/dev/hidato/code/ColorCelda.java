@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ColorCelda} se encarga de realizar tareas específicas.
+ * @fileoverview    {ColorCelda}
  *
  * @version         2.0
  *

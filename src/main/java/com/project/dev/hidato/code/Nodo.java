@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Nodo} se encarga de realizar tareas específicas.
+ * @fileoverview    {Nodo}
  *
  * @version         2.0
  *

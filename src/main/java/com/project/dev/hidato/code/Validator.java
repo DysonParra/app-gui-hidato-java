@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Validator} se encarga de realizar tareas específicas.
+ * @fileoverview    {Validator}
  *
  * @version         2.0
  *

@@ -23,7 +23,7 @@ import java.io.IOException;
  * TODO: Definición de {@code Validator}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class Validator {
 

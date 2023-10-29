@@ -18,7 +18,7 @@ package com.project.dev.hidato.code;
  * TODO: Definición de {@code ListaCircular}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class ListaCircular {
 

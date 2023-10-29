@@ -35,7 +35,7 @@ import static javax.swing.JTable.AUTO_RESIZE_OFF;
  * TODO: Definición de {@code MainFrame}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class MainFrame extends javax.swing.JFrame {
 

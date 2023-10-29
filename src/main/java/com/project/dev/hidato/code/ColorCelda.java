@@ -20,7 +20,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableCellRenderer;
 
 /**
- * TODO: Definición de {@code ColorCelda}.
+ * TODO: Description of {@code ColorCelda}.
  *
  * @author Dyson Parra
  * @since 11
@@ -28,7 +28,7 @@ import javax.swing.table.DefaultTableCellRenderer;
 public class ColorCelda extends DefaultTableCellRenderer {
 
     /**
-     * FIXME: Definición de {@code getTableCellRendererComponent}. Declara un componente con el
+     * FIXME: Description of {@code getTableCellRendererComponent}. Declara un componente con el
      * CellRenderer de la tabla.
      */
     @Override

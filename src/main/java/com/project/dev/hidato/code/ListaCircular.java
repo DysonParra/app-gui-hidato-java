@@ -15,7 +15,7 @@
 package com.project.dev.hidato.code;
 
 /**
- * TODO: Definición de {@code ListaCircular}.
+ * TODO: Description of {@code ListaCircular}.
  *
  * @author Dyson Parra
  * @since 11
@@ -27,7 +27,7 @@ public class ListaCircular {
     public int size = 0;                        // size tendrá la cantidad de elementos de la lista.
 
     /**
-     * FIXME: Definición de {@code agregarElemento}. Crea un nuevo nodo en una lista ligadaCircular.
+     * FIXME: Description of {@code agregarElemento}. Crea un nuevo nodo en una lista ligadaCircular.
      *
      * @param fila          es lo que llevará el nuevo nodo en el campo fila.
      * @param columna       es lo que llevará el nuevo nodo en el campo columna.
@@ -65,7 +65,7 @@ public class ListaCircular {
     }
 
     /**
-     * FIXME: Definición de {@code eliminarElemento}. Quita un nodo de una lista ligadaCircular.
+     * FIXME: Description of {@code eliminarElemento}. Quita un nodo de una lista ligadaCircular.
      *
      * @param first Define si se elimina el primer nodo de la lista. (false = eliminar el ultimo).
      */
@@ -99,7 +99,7 @@ public class ListaCircular {
     }
 
     /**
-     * FIXME: Definición de {@code listar}. Muestra en pantalla los elementos de la lista. Solo
+     * FIXME: Description of {@code listar}. Muestra en pantalla los elementos de la lista. Solo
      * usado para debug, no necesitado para el programa.
      */
     public void listar() {
@@ -118,7 +118,7 @@ public class ListaCircular {
     }
 
     /**
-     * FIXME: Definición de {@code quickSortList}. Ordena los nodos de menor a mayor valor de campo
+     * FIXME: Description of {@code quickSortList}. Ordena los nodos de menor a mayor valor de campo
      * posibilidades usando quickSort.
      *
      * @param lista Es la lista que se ordenará.

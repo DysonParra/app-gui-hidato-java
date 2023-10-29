@@ -20,7 +20,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * TODO: Definición de {@code Validator}.
+ * TODO: Description of {@code Validator}.
  *
  * @author Dyson Parra
  * @since 11
@@ -28,7 +28,7 @@ import java.io.IOException;
 public class Validator {
 
     /**
-     * FIXME: Definición de {@code esUnNumero}. Se usa en conjunto con validar número para verificar
+     * FIXME: Description of {@code esUnNumero}. Se usa en conjunto con validar número para verificar
      * que el hidato a crear tenga en nivel, ancho y alto solo números.
      *
      * @param character Valida si un caracter ingresado es un número.
@@ -75,7 +75,7 @@ public class Validator {
     }
 
     /**
-     * FIXME: Definición de {@code validarNumero}. Valida si el String ingresado es un número de
+     * FIXME: Description of {@code validarNumero}. Valida si el String ingresado es un número de
      * tipo integer. Se usa cuando se escribe el nivel, ancho y alto de un hidato a ser creado, para
      * validar que se hayan escrito números.
      *
@@ -100,7 +100,7 @@ public class Validator {
     }
 
     /**
-     * FIXME: Definición de {@code validarSlash}. Valida si el String ingresado contiene algún Slash
+     * FIXME: Description of {@code validarSlash}. Valida si el String ingresado contiene algún Slash
      * "/". Se usa al intentar guardar el txt o la imagen, puesto que si se pone un slash en la ruta
      * trata de guardarlo en la ruta especificada, y en caso de que no, por defecto java guarda las
      * imagenes o txs en la carpeta del proyecto.
@@ -125,7 +125,7 @@ public class Validator {
     }
 
     /**
-     * FIXME: Definición de {@code validarTxt}. Intenta abrir un txt indicado en una ruta.
+     * FIXME: Description of {@code validarTxt}. Intenta abrir un txt indicado en una ruta.
      *
      * @param ruta       Es la ruta del txt.
      * @param readOrLoad Si solo se intentará abrir el txt, o si se abrira y además se intentará

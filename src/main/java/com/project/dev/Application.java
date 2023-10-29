@@ -21,7 +21,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
 /**
- * TODO: Definición de {@code Application}.
+ * TODO: Description of {@code Application}.
  *
  * @author Dyson Parra
  * @since 11

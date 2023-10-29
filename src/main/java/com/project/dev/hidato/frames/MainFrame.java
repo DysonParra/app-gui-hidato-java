@@ -32,7 +32,7 @@ import javax.swing.JOptionPane;
 import static javax.swing.JTable.AUTO_RESIZE_OFF;
 
 /**
- * TODO: Definición de {@code MainFrame}.
+ * TODO: Description of {@code MainFrame}.
  *
  * @author Dyson Parra
  * @since 11
@@ -40,7 +40,7 @@ import static javax.swing.JTable.AUTO_RESIZE_OFF;
 public class MainFrame extends javax.swing.JFrame {
 
     /**
-     * FIXME: Definición de {@code getScreenShot}. Crea un BufferedImage que captura Main_Frame como
+     * FIXME: Description of {@code getScreenShot}. Crea un BufferedImage que captura Main_Frame como
      * imagen.
      *
      * @param component
@@ -58,7 +58,7 @@ public class MainFrame extends javax.swing.JFrame {
     }
 
     /**
-     * TODO: Definición de {@code getSaveSnapShot}.
+     * TODO: Description of {@code getSaveSnapShot}.
      *
      * @param component
      * @param fileName
@@ -73,7 +73,7 @@ public class MainFrame extends javax.swing.JFrame {
     }
 
     /**
-     * TODO: Definición de {@code Main_Frame}.
+     * TODO: Description of {@code Main_Frame}.
      *
      */
     public MainFrame() {
@@ -197,7 +197,7 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     /**
-     * TODO: Definición de {@code neuActionPerformed}.
+     * TODO: Description of {@code neuActionPerformed}.
      *
      * @param evt
      */
@@ -210,7 +210,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_neuActionPerformed
 
     /**
-     * TODO: Definición de {@code exitActionPerformed}.
+     * TODO: Description of {@code exitActionPerformed}.
      *
      * @param evt
      */
@@ -220,7 +220,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_exitActionPerformed
 
     /**
-     * TODO: Definición de {@code imgActionPerformed}.
+     * TODO: Description of {@code imgActionPerformed}.
      *
      * @param evt
      */
@@ -286,7 +286,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_imgActionPerformed
 
     /**
-     * TODO: Definición de {@code txtActionPerformed}.
+     * TODO: Description of {@code txtActionPerformed}.
      *
      * @param evt
      */
@@ -328,7 +328,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_txtActionPerformed
 
     /**
-     * TODO: Definición de {@code solve_MenuActionPerformed}.
+     * TODO: Description of {@code solve_MenuActionPerformed}.
      *
      * @param evt
      */
@@ -426,7 +426,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_solve_MenuActionPerformed
 
     /**
-     * TODO: Definición de {@code restart_MenuActionPerformed}.
+     * TODO: Description of {@code restart_MenuActionPerformed}.
      *
      * @param evt
      */
@@ -455,7 +455,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_restart_MenuActionPerformed
 
     /**
-     * TODO: Definición de {@code levelActionPerformed}.
+     * TODO: Description of {@code levelActionPerformed}.
      *
      * @param evt
      */
@@ -464,7 +464,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_levelActionPerformed
 
     /**
-     * TODO: Definición de {@code delete_MenuActionPerformed}.
+     * TODO: Description of {@code delete_MenuActionPerformed}.
      *
      * @param evt
      */
@@ -501,7 +501,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_delete_MenuActionPerformed
 
     /**
-     * TODO: Definición de {@code generatorActionPerformed}.
+     * TODO: Description of {@code generatorActionPerformed}.
      *
      * @param evt
      */
@@ -510,7 +510,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_generatorActionPerformed
 
     /**
-     * TODO: Definición de {@code helpActionPerformed}.
+     * TODO: Description of {@code helpActionPerformed}.
      *
      * @param evt
      */
@@ -519,7 +519,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_helpActionPerformed
 
     /**
-     * TODO: Definición de {@code load_MenuActionPerformed}.
+     * TODO: Description of {@code load_MenuActionPerformed}.
      *
      * @param evt
      */
@@ -556,7 +556,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_load_MenuActionPerformed
 
     /**
-     * TODO: Definición de {@code costActionPerformed}.
+     * TODO: Description of {@code costActionPerformed}.
      *
      * @param evt
      */
@@ -590,7 +590,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_costActionPerformed
 
     /**
-     * TODO: Definición de {@code Dead_PointActionPerformed}.
+     * TODO: Description of {@code Dead_PointActionPerformed}.
      *
      * @param evt
      */

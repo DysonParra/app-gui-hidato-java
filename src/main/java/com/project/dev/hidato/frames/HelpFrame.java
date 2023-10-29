@@ -15,7 +15,7 @@
 package com.project.dev.hidato.frames;
 
 /**
- * TODO: Definición de {@code HelpFrame}.
+ * TODO: Description of {@code HelpFrame}.
  *
  * @author Dyson Parra
  * @since 11
@@ -23,7 +23,7 @@ package com.project.dev.hidato.frames;
 public class HelpFrame extends javax.swing.JFrame {
 
     /**
-     * TODO: Definición de {@code HelpFrame}.
+     * TODO: Description of {@code HelpFrame}.
      *
      */
     public HelpFrame() {

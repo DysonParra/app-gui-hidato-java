@@ -25,7 +25,7 @@ import javax.swing.JTable;
 import static javax.swing.JTable.AUTO_RESIZE_OFF;
 
 /**
- * TODO: Definición de {@code Tablero}.
+ * TODO: Description of {@code Tablero}.
  *
  * @author Dyson Parra
  * @since 11
@@ -33,7 +33,7 @@ import static javax.swing.JTable.AUTO_RESIZE_OFF;
 public class Tablero {
 
     /**
-     * FIXME: Definición de {@code newMatrix}. Crea una matrix con filas y columnas especificadas
+     * FIXME: Description of {@code newMatrix}. Crea una matrix con filas y columnas especificadas
      * como parámetro
      *
      * @param m es la cantidad de filas de la matrix.
@@ -47,7 +47,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code printMatrix}. Muestra una matrix parámetro por consola (Solo
+     * FIXME: Description of {@code printMatrix}. Muestra una matrix parámetro por consola (Solo
      * usado para pruebas)
      *
      * @param matrix es la matrix que se mostrará.
@@ -96,7 +96,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code printMatrixV2}. Muestra una matrix parámetro por consola (Solo
+     * FIXME: Description of {@code printMatrixV2}. Muestra una matrix parámetro por consola (Solo
      * usado para pruebas)
      *
      * @param matrix es la matrix que se mostrará.
@@ -109,7 +109,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code matrixToJTable}. Lleva un matrix parámetro a un JTable, y el
+     * FIXME: Description of {@code matrixToJTable}. Lleva un matrix parámetro a un JTable, y el
      * JTable a un JScrollPane. Pone las posiciones de la matrix con valor diferente a cero en el
      * Jtable como no editable (pistas). Pone las posiciones de la matrix con valor = ó valor = size
      * de la matrix con fondo rojo. Pone las demás pistas con fondo color Cian. Deja la casillas del
@@ -193,7 +193,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code duplicarMatrix}. Devuelve una copia de una matrix parámetro
+     * FIXME: Description of {@code duplicarMatrix}. Devuelve una copia de una matrix parámetro
      *
      * @param matrix es la matrix que se coipiará.
      * @return una nueva matrix exactamente igual a la ingresada por parámetro.
@@ -208,7 +208,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code calcularPosNoVacias}. Recibe una matrix parámetro, y mira cuantas
+     * FIXME: Description of {@code calcularPosNoVacias}. Recibe una matrix parámetro, y mira cuantas
      * de sus posiciones tienen el valor cero. Se usa para que antes de escribir el .txt se evalúe
      * cuantas posiciones del Hidato en pantalla no tienen valores. El valor de retorno es >= a la
      * cantidad de pistas del hidato.
@@ -226,7 +226,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code asignarLevel}. Recibe una matrix y un entero entre 1 y 3, y pone
+     * FIXME: Description of {@code asignarLevel}. Recibe una matrix y un entero entre 1 y 3, y pone
      * n-posiciones de la matrix en cero dependiendo del entero.
      *
      * @param matrix la matrix que se le pondrán algunas posiciones en cero.
@@ -276,7 +276,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code jTableToMatrix}. Recibe un JTable y lo almacena en una matrix
+     * FIXME: Description of {@code jTableToMatrix}. Recibe un JTable y lo almacena en una matrix
      *
      * @param Table es el JTable a almacenar
      * @return matrix con el JTable.
@@ -306,7 +306,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code validarPos}. Verifica que dado una matrix que representa un
+     * FIXME: Description of {@code validarPos}. Verifica que dado una matrix que representa un
      * Application, un i, y un j, la posición[i][j] no se salga de la matrix
      *
      * @param matrix es la matrix que se evaluará una posición.
@@ -323,7 +323,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code calcularCantPosAdy}. Calcula a cuantas posiciones posibles
+     * FIXME: Description of {@code calcularCantPosAdy}. Calcula a cuantas posiciones posibles
      * adyacentes a una posición i,j dada puede desplazarse. Cuantifica las posibilidades que tiene
      * para ir desde una casilla dada mientras llena el hidato.
      *
@@ -423,7 +423,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code calcularPosibPos}. Almacena en una lista ligada circular las
+     * FIXME: Description of {@code calcularPosibPos}. Almacena en una lista ligada circular las
      * casillas a las cuales se pude dirigir desde la casilla parámetro. Se definió de tal modo que
      * la lista almacena primero las diagonales, y luego las laterales.
      *
@@ -463,7 +463,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code calcularPosToGo}. Define a cual de todas las casillas posibles va
+     * FIXME: Description of {@code calcularPosToGo}. Define a cual de todas las casillas posibles va
      * desde la casilla actual. Define que desde la casilla actual, irá a aquella que en caso de
      * desplazarse a ella, esta tiene menos casillas posibles a las cuales desplazarse.
      *
@@ -507,7 +507,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code markPos}. Pone el valor de la posición 2 de un vector en la fila
+     * FIXME: Description of {@code markPos}. Pone el valor de la posición 2 de un vector en la fila
      * que indica el vector[0] y en la columna que indica eel vector[1] en una matrix parámetro.
      *
      * @param matrix es la matrix que se le cambiará el valor de una posición.
@@ -521,7 +521,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code fillMatrix}. Recibe una matrix, y en ella almacena un hidato.
+     * FIXME: Description of {@code fillMatrix}. Recibe una matrix, y en ella almacena un hidato.
      *
      * @param matrix es la matrix en la cual se almacenará un hidato.
      * @return matrix con un hidato.
@@ -560,7 +560,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code resizeHidato}. Redimensiona la ventana Main_Frame, ajustandola al
+     * FIXME: Description of {@code resizeHidato}. Redimensiona la ventana Main_Frame, ajustandola al
      * tamaño de un hidato creado, cargado, reiniciado o solucionado antes de su invocación. También
      * se usa para mostrar en el menú ayuda el nivel de adyacencia.
      *
@@ -637,7 +637,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code txtToMatrix}. Recibe un buffered de tipo txt con un hidato,
+     * FIXME: Description of {@code txtToMatrix}. Recibe un buffered de tipo txt con un hidato,
      * analiza el txt y crea una matrix con los datos del txt.
      *
      * @param txt es el Buffereded de tipo txt que se analizará.
@@ -726,7 +726,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code createTracksMatrix}. Se llama cuando se carga un hidato desde
+     * FIXME: Description of {@code createTracksMatrix}. Se llama cuando se carga un hidato desde
      * txt. Analiza el hidato cargado y almacena en una matrix la fila y columna de cada pista.
      * Almacena en la matrix de retorno esto: Dada una fila n, almacena en la columna 0 en que fila
      * (en el hidato cargado) está la pista n, en la columna 1 en que columna (en el hidato cargado)
@@ -803,7 +803,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code fastSolveHidato}. Se invoca cuando se tiene en
+     * FIXME: Description of {@code fastSolveHidato}. Se invoca cuando se tiene en
      * Hidato.matrix_With_Level un hidato cargado desde un txt. Busca la solución al Hidato de
      * Hidato.matrix_With_Level y la almacena en Hidato.matrix_Complete. Así a la hora de dar en el
      * Main_Frame en restart, se podrá volver al Hidato cargado ya que este está en
@@ -895,7 +895,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code slowSolveHidato}. Invocado cuando no se pudo encontrar una
+     * FIXME: Description of {@code slowSolveHidato}. Invocado cuando no se pudo encontrar una
      * solución rápida y el usuario decidió encontrar una solución (aunque se demore). Busca la
      * solución al Hidato de Hidato.matrix_With_Level y la almacena en Hidato.matrix_Complete. Así a
      * la hora de dar en el Main_Frame en restart, se podrá volver al Hidato cargado ya que este
@@ -1250,7 +1250,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code fillCostMatrix}. Invocado cuando se da en ayuda y luego en
+     * FIXME: Description of {@code fillCostMatrix}. Invocado cuando se da en ayuda y luego en
      * Costos. Llena una matrix con los costos de ir de la casilla central a cualquier otra.
      *
      * @param matrix Es la matrix en la que se almacenarán los costos.
@@ -1280,7 +1280,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code fillDeadMatrix}. Invocado cuando se da en ayuda y luego en punto
+     * FIXME: Description of {@code fillDeadMatrix}. Invocado cuando se da en ayuda y luego en punto
      * muerto. Llena una matrix con ejemplos de puntos muertos.
      *
      * @param matrix  Es la matrix en la que se almacenarán los puntos muertos.
@@ -1327,7 +1327,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code validarDiagonal}. Invocado cuando se está tratando de resolver un
+     * FIXME: Description of {@code validarDiagonal}. Invocado cuando se está tratando de resolver un
      * hidato, y se encuentra con que solo es posible llegar desde la casilla actual a la próxima
      * pista usando dist veces la misma diagonal.
      *
@@ -1408,7 +1408,7 @@ public class Tablero {
     }
 
     /**
-     * FIXME: Definición de {@code validarAdyacencia}. Invocado cuando se quiere validar si se está
+     * FIXME: Description of {@code validarAdyacencia}. Invocado cuando se quiere validar si se está
      * en un punto muerto. Recibe 2 casillas (fila y columna) y dice si son o no adyacentes. Para
      * fectos prácticos se dice que una casilla es adyacente consigo misma.
      *

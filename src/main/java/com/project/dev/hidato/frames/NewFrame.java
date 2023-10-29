@@ -20,7 +20,7 @@ import com.project.dev.hidato.code.Validator;
 import javax.swing.JOptionPane;
 
 /**
- * TODO: Definición de {@code NewFrame}.
+ * TODO: Description of {@code NewFrame}.
  *
  * @author Dyson Parra
  * @since 11
@@ -28,7 +28,7 @@ import javax.swing.JOptionPane;
 public class NewFrame extends javax.swing.JFrame {
 
     /**
-     * TODO: Definición de {@code newFrame}.
+     * TODO: Description of {@code newFrame}.
      *
      */
     public NewFrame() {
@@ -128,7 +128,7 @@ public class NewFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     /**
-     * TODO: Definición de {@code accept_ButtonActionPerformed}.
+     * TODO: Description of {@code accept_ButtonActionPerformed}.
      *
      * @param evt
      */
@@ -205,7 +205,7 @@ public class NewFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_accept_ButtonActionPerformed
 
     /**
-     * TODO: Definición de {@code cancel_ButtonActionPerformed}.
+     * TODO: Description of {@code cancel_ButtonActionPerformed}.
      *
      * @param evt
      */

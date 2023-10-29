@@ -20,7 +20,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code Nodo}.
+ * TODO: Description of {@code Nodo}.
  *
  * @author Dyson Parra
  * @since 11

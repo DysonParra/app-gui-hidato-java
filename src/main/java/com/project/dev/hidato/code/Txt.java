@@ -20,7 +20,7 @@ import java.io.FileWriter;
 import javax.swing.JOptionPane;
 
 /**
- * TODO: Definición de {@code Txt}.
+ * TODO: Description of {@code Txt}.
  *
  * @author Dyson Parra
  * @since 11
@@ -30,7 +30,7 @@ public class Txt {
     private long tiempoInicio = System.currentTimeMillis();                     // calcula el tiempo de inicio para generar el txt.
 
     /**
-     * FIXME: Definición de {@code saveHidatoToTxt}. Guarda una matrix ingresada en un archivo de
+     * FIXME: Description of {@code saveHidatoToTxt}. Guarda una matrix ingresada en un archivo de
      * texto en una ruta específicada.
      *
      * @param ruta   Indica donde se intentará guardar el .txt

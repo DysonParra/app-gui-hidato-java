@@ -41,8 +41,10 @@ public class Tablero {
      * @return la matrix de enteros de mxn vacía.
      */
     public int[][] newMatrix(int m, int n) {
-        int[][] matrix = new int[m][n];                                         // crea matrix de enteros de mxm.
-        return matrix;                                                          // Devuelve la matrix.
+        // crea matrix de enteros de mxm.
+        // Devuelve la matrix.
+        
+        return new int[m][n];                                                          
 
     }
 
